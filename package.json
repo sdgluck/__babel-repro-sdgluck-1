@@ -1,0 +1,15 @@
+{
+  "private": true,
+  "name": "__babel-repro-sdgluck-1",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "author": "Sam Gluck <sdgluck@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "babel-core": "^6.25.0",
+    "babel-polyfill": "^6.23.0",
+    "babel-preset-env": "^1.6.0",
+    "babel-register": "^6.24.1"
+  }
+}
