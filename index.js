@@ -1,6 +1,6 @@
 require('babel-polyfill')
 require('babel-register')({
-  ignore: false
+  ignore: /node_modules\/(?:__test__)/
 })
 
-require('./hello').hello()
+require('__test__').hello()
